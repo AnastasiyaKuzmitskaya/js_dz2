@@ -16,3 +16,18 @@ console.log(typeof b);
 console.log(typeof c);
 console.log(typeof d);
 console.log(typeof f);
+
+
+
+//Task 2
+
+let height = 15;
+let width = 20;
+
+if ( height > width) {
+    console.log(height)
+    } else {
+    console.log(width)
+    }
+
+
