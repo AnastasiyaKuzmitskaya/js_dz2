@@ -53,3 +53,16 @@ let orange = true;
 let shouldGoToWork = key && documents && pen && (apple || orange); 
 console.log(shouldGoToWork);
 
+
+//task 5
+
+let ageUser = prompt('Enter your age:');
+if (ageUser >=18){
+    alert('Попей пивка');
+}  else if ( ageUser < 18 && ageUser >= 16 ){
+    alert('Можешь выкурить сигаретку, только маме не говори');
+}
+else {
+    alert('Пей колу')
+} 
+
