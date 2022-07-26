@@ -55,6 +55,23 @@ console.log(shouldGoToWork);
 
 
 //task 5
+let sumUser = prompt('Enter any number:');
+
+    if ((sumUser % 3===0) && (sumUser % 5===0)){
+    console.log('FizBuz');
+
+    }
+    else if (sumUser % 5===0){
+        console.log('Fiz');
+    }  
+    else if (sumUser % 3===0){
+        console.log('Buz');
+    }  
+
+    
+
+
+//task 6
 
 let ageUser = prompt('Enter your age:');
 if (ageUser >=18){
@@ -65,4 +82,10 @@ if (ageUser >=18){
 else {
     alert('Пей колу')
 } 
+
+
+
+
+
+
 
