@@ -108,3 +108,13 @@ switch (userName) {
     alert( "Попробуйте снова, без предлога" );
    }
 
+
+
+
+   ////ADVANCED level
+
+   ///task 1
+
+   let nameUser = prompt('Введите свое имя:');
+   alert( nameUser.toLowerCase());
+   
